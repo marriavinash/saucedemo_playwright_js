@@ -1,0 +1,25 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/marriavinash/saucedemo_playwright_js#readme",
+  "bugs": {
+    "url": "https://github.com/marriavinash/saucedemo_playwright_js/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marriavinash/saucedemo_playwright_js.git"
+  },
+  "license": "ISC",
+  "author": "Avinash Marri",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {},
+  "dependencies": {
+    "playwright": "^1.64.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "@types/node": "^26.6.5"
+  }
+}
