@@ -4,7 +4,7 @@ class InventoryPage{
         constructor(page){
             this.page = page;
             this.backpackAddButton = page.locator('[data-test="add-to-cart-sauce-labs-backpack"]');
-            this.cartbadge = page.locator('[data-test="shopping-cart-badge"]');
+            this.cartbadge = page.locator(".shopping_cart_badge");
         }
 
         async addBackpackToCart(){
